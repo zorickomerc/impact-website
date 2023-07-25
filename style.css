@@ -75,3 +75,16 @@ body {
 h1 {
     font-size: 4rem;
 }
+
+@media all and (max-width: 447px) {
+    .hero-buttons>button {
+        padding: 7px 24px;
+    }
+
+    .btn-video {
+        padding: 7px;
+    }
+    .hero-img {
+        max-width: 15rem;
+    }
+}
